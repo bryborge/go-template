@@ -6,10 +6,11 @@
     "vscode": {
       "extensions": [
         "ms-azuretools.vscode-docker",
-        "davidanson.vscode-markdownlint",
         "shardulm94.trailing-spaces",
         "IBM.output-colorizer",
-        "golang.go"
+        "golang.go",
+        "EditorConfig.EditorConfig",
+        "nhoizey.gremlins"
       ],
       "settings": {
         "go.useLanguageServer": true
