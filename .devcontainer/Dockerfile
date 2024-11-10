@@ -14,6 +14,7 @@ ARG PKGS="\
 git \
 goreleaser \
 openssh-client \
+vim \
 zsh \
 "
 

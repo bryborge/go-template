@@ -21,9 +21,12 @@
       "-u",
       "vscode",
       "--cap-add=SYS_PTRACE",
+      "--env-file",
+      ".env",
       "--security-opt",
       "seccomp=unconfined",
       // map SSH keys for Git
       "-v", "${env:HOME}/.ssh:/home/vscode/.ssh:ro"
-  ]
+  ],
+  "postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}"
 }
